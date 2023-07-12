@@ -15,10 +15,10 @@ module.exports = {
 
     await queryInterface.bulkInsert("Movies", [
       {
-        name: "Saras 008",
-        description: "Pahlawan kebajikan",
+        name: "Jujutsu Kaisen Season 2",
+        description: "Gojo's backstory!",
         image_url:
-          "https://upload.wikimedia.org/wikipedia/id/7/70/Saras_008_%28Poster%29.jpg",
+          "https://a.storyblok.com/f/178900/2000x3000/8863dbd7c8/jujutsu-kaisen-season-2-key-art.png/m/2000x3000/filters:quality(100)",
         author_id: 1,
         createdAt: new Date(),
         updatedAt: new Date(),
