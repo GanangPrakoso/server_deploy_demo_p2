@@ -4,7 +4,7 @@ const movieRouter = require("./movies");
 const authentication = require("../middlewares/authentication");
 
 router.get("/", (req, res) => {
-  res.send("ah aku terhit");
+  res.send("ah aku terhit tapi ini diupdate");
 });
 router.use("/users", userRouter);
 
